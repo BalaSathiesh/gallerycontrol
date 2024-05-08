@@ -137,7 +137,8 @@ public class MainActivity extends Activity {
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.41" />
-
+```
+```
     <TextView
         android:id="@+id/textView"
         android:layout_width="148dp"
@@ -176,7 +177,8 @@ public class CustomGalleryAdapter extends BaseAdapter {
         context = c;
         this.images = images;
     }
-
+```
+```
     // returns the number of images, in our example it is 10
     public int getCount() {
         return images.length;

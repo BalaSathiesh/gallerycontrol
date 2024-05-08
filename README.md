@@ -176,8 +176,7 @@ public class CustomGalleryAdapter extends BaseAdapter {
         context = c;
         this.images = images;
     }
-```
-```
+
     // returns the number of images, in our example it is 10
     public int getCount() {
         return images.length;
@@ -192,7 +191,8 @@ public class CustomGalleryAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-
+```
+```
     // returns an ImageView view
     public View getView(int position, View convertView, ViewGroup parent) {
         // position argument will indicate the location of image

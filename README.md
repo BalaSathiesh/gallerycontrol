@@ -191,14 +191,13 @@ public class CustomGalleryAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-```
-```
     // returns an ImageView view
     public View getView(int position, View convertView, ViewGroup parent) {
         // position argument will indicate the location of image
         // create a ImageView programmatically
         ImageView imageView = new ImageView(context);
-
+```
+```
         // set image in ImageView
         imageView.setImageResource(images[position]);
 

@@ -123,7 +123,8 @@ public class MainActivity extends Activity {
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-
+```
+```
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="413dp"
@@ -137,8 +138,6 @@ public class MainActivity extends Activity {
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.41" />
-```
-```
     <TextView
         android:id="@+id/textView"
         android:layout_width="148dp"

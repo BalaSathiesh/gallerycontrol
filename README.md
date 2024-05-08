@@ -53,7 +53,8 @@ public class MainActivity extends Activity {
             R.drawable.img5,
             R.drawable.img6,
     };
-
+```
+```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
